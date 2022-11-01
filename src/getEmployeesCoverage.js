@@ -2,10 +2,9 @@ const data = require('../data/zoo_data');
 
 function verifyObject(object, employee) {
   const values = Object.values(object)[0];
-  const result = employee
-    .firstName === values
-|| employee.lastName === values
-|| employee.id === values;
+  const result = employee.firstName === values
+  || employee.lastName === values
+  || employee.id === values;
   return result;
 }
 
