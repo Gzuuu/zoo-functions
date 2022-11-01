@@ -20,10 +20,10 @@ function countEntrants(entrantsCount) {
 function calculateEntry(entrants) {
   if (!entrants || Object.keys(entrants).length === 0) { return 0; }
   const visitors = countEntrants(entrants);
-  const sum = visitors.adult * 49.99
+  const result = visitors.adult * 49.99
     + visitors.child * 20.99
     + visitors.senior * 24.99;
-  return sum;
+  return result;
 }
-console.log(calculateEntry({}));
+
 module.exports = { calculateEntry, countEntrants };
