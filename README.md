@@ -6,7 +6,7 @@ O Zoo Functions é um projeto desenvolvido em JavaScript, focado na criação de
 ## Como Rodar o Projeto
 1. Clone o repositório do projeto:
    ```bash
-   git clone https://github.com/Gzuuu/zoo-functions-project.git
+   git clone https://github.com/Gzuuu/zoo-functions.git
    ```
 2. Entre na pasta onde o repositório foi baixado:
    ```bash
